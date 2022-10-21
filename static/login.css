@@ -1,0 +1,392 @@
+html {
+  background-image: url('https://wallpaperaccess.com/full/680234.png');
+}
+
+.section-login {
+  background-image: url(../media/account_background.jpg);
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-login img {
+  width: 130px;
+  max-height: 50px;
+  margin-left: 1.5rem;
+}
+.section-login .login-card {
+  background-color: #2b2b2b;
+  width: 800px;
+  max-height: 530px;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.section-login .login-card .login-nav {
+  padding-top: 1rem;
+}
+.section-login .login-card .login-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.section-login .login-card .login-nav ul li a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+.section-login .login-card .login-nav .button-login {
+  color: white;
+  border-bottom: none;
+  padding: 13px 10px;
+}
+.section-login .login-card .login-nav .button-login-active {
+  color: white;
+  border-bottom: 2px solid #0078ff;
+  padding: 13px 10px;
+}
+.section-login .login-card .login-nav .button-register {
+  color: white;
+  border-bottom: none;
+  padding: 13px 10px;
+}
+.section-login .login-card .login-nav .button-register-active {
+  color: white;
+  border-bottom: 2px solid #0078ff;
+  padding: 13px 10px;
+}
+.section-login .login-card .login-container {
+  display: flex;
+  flex-direction: row;
+}
+.section-login .login-card .login-container .login-form {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.section-login .login-card .login-container .login-form .login-input {
+  margin-top: 1rem;
+  max-width: 320px;
+  height: 50px;
+  padding-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid gray;
+}
+.section-login
+  .login-card
+  .login-container
+  .login-form
+  .login-captcha {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: #ffffff80;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login
+  .login-card
+  .login-container
+  .login-form
+  .login-captcha
+  a {
+  color: #ffffff80;
+  padding: 0 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login .login-card .login-container .login-form li {
+  list-style-type: none;
+  pointer: pointer;
+}
+.section-login .login-card .login-container .login-form li a {
+  color: #cccccc;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.section-login .login-card .login-container .login-form li a:hover {
+  color: white;
+}
+.section-login .login-card .login-container .login-form h5 {
+  color: #ffffff80;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login .login-card .login-container .login-form button {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  max-width: 320px;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.section-login .login-card .login-container .login-form button:hover {
+  background-color: #0078ff;
+  color: white;
+}
+.section-login .login-card .login-container .login-social {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+}
+.section-login .login-card .login-container .login-social ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.section-login .login-card .login-container .login-social ul button {
+  width: 320px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+  border: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login
+  .login-card
+  .login-container
+  .login-social
+  ul
+  button:hover {
+  filter: brightness(110%);
+}
+.section-login
+  .login-card
+  .login-container
+  .login-social
+  ul
+  .button-google {
+  background-color: #4285f4;
+  color: white;
+}
+.section-login
+  .login-card
+  .login-container
+  .login-social
+  ul
+  .button-facebook {
+  background-color: #3b579d;
+  color: white;
+}
+.section-login
+  .login-card
+  .login-container
+  .login-social
+  ul
+  .button-apple {
+  background-color: #f0f0f0;
+  color: black;
+}
+.section-login
+  .login-card
+  .login-container
+  .login-social
+  ul
+  .button-twitter {
+  background-color: #1da1f2;
+  color: white;
+}
+.section-login .login-card .login-container .login-social ul i {
+  font-size: 22px;
+  padding-right: 0.5rem;
+}
+.section-login .login-card .register-container {
+  display: flex;
+  flex-direction: row;
+}
+.section-login .login-card .register-container .register-form {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.section-login .login-card .register-container .register-form select {
+  color: #ffffff80;
+  padding-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid gray;
+  margin-top: 0.1rem;
+  height: 50px;
+}
+.section-login
+  .login-card
+  .register-container
+  .register-form
+  .dropdown-country {
+  max-width: 320px;
+}
+.section-login
+  .login-card
+  .register-container
+  .register-form
+  .container-dropdown-birthday {
+  max-width: 320px;
+  display: flex;
+  flex-direction: row;
+}
+.section-login
+  .login-card
+  .register-container
+  .register-form
+  .container-dropdown-birthday
+  select {
+  max-width: 103px;
+  margin-right: 0.35rem;
+  margin-top: 0.5rem;
+}
+.section-login .login-card .register-container .register-form a {
+  padding-top: 0.5rem;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login
+  .login-card
+  .register-container
+  .register-form
+  .login-captcha {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: #ffffff80;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login
+  .login-card
+  .register-container
+  .register-form
+  .login-captcha
+  a {
+  color: #ffffff80;
+  padding: 0 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login .login-card .register-container .register-form li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.section-login .login-card .register-container .register-form li a {
+  color: #cccccc;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.section-login
+  .login-card
+  .register-container
+  .register-form
+  li
+  a:hover {
+  color: white;
+}
+.section-login .login-card .register-container .register-form h5 {
+  color: #ffffff80;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login .login-card .register-container .register-form button {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  max-width: 320px;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.section-login
+  .login-card
+  .register-container
+  .register-form
+  button:hover {
+  background-color: #0078ff;
+  color: white;
+}
+.section-login .login-card .register-container .login-social {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.section-login .login-card .register-container .login-social ul {
+  display: flex;
+  flex-direction: column;
+}
+.section-login
+  .login-card
+  .register-container
+  .login-social
+  ul
+  button {
+  width: 320px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+  border: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-login
+  .login-card
+  .register-container
+  .login-social
+  ul
+  button:hover {
+  filter: brightness(110%);
+}
+.section-login
+  .login-card
+  .register-container
+  .login-social
+  ul
+  .button-google {
+  background-color: #4285f4;
+  color: white;
+}
+.section-login
+  .login-card
+  .register-container
+  .login-social
+  ul
+  .button-facebook {
+  background-color: #3b579d;
+  color: white;
+}
+.section-login
+  .login-card
+  .register-container
+  .login-social
+  ul
+  .button-apple {
+  background-color: #f0f0f0;
+  color: black;
+}
+.section-login
+  .login-card
+  .register-container
+  .login-social
+  ul
+  .button-twitter {
+  background-color: #1da1f2;
+  color: white;
+}
+.section-login .login-card .register-container .login-social ul i {
+  font-size: 22px;
+  padding-right: 0.5rem;
+}
